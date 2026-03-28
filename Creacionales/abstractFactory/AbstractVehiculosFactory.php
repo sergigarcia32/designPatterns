@@ -1,9 +1,9 @@
 <?php
 
-abstract class AbstractVehiculosFactory
+interface AbstractVehiculosFactory
 {
-abstract function crearCoche(): Vehiculo2;
-abstract function crearCamion(): Vehiculo2;
+    public function crearCoche(): Vehiculo2;
+    public function crearCamion(): Vehiculo2;
 }
 
 ?>

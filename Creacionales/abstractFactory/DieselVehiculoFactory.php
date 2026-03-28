@@ -3,7 +3,7 @@ include_once("CocheDiesel.php");
 include_once("CamionDiesel.php");
 include_once("Vehiculo2.php");
 include_once("AbstractVehiculosFactory.php");
-class DieselVehiculoFactory extends AbstractVehiculosFactory
+class DieselVehiculoFactory implements AbstractVehiculosFactory
 {
     function crearCoche(): Vehiculo2
     {
